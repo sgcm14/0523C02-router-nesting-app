@@ -47,6 +47,9 @@ Solo debemos realizar una modificación en App:
 Agregamos a nuestro navbar (que solamente contiene los links que teníamos antes) un footer (también homogéneo a todas las páginas) y un nuevo componente, propio de React Router, denominado outlet. Su única función es servir como placeholder para luego renderizar el contenido correspondiente a cada ruta hija. En ejecución, este componente se
 cambiará por el que sea correspondiente a la URL actual.
 
+![](https://raw.githubusercontent.com/sgcm14/0523C02-router-nesting-app/main/src/assets/Captura.PNG)
+>  Pantalla de estructura
+
 ¡Vamos a probar! Ya tenemos nuestro navbar y footer renderizando en cada página.
 
 **Realizado por :** Sammy Gigi Cantoral Montejo (sgcm14)
