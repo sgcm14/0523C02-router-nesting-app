@@ -29,6 +29,7 @@ const router = createHashRouter([
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
+    {/* Para deploy se cambia por createHashRouter */}
     {/* <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />}>
